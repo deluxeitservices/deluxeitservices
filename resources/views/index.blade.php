@@ -7,7 +7,7 @@
 @section('content')
 
 <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+    <section id="deluxe" class="hero section dark-background">
       <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
 
       <div class="container">

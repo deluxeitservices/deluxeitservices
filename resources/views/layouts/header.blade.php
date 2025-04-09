@@ -37,7 +37,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo-bg.png" alt="">
         <!-- <h1 class="sitename">Deluxe It Services</h1> -->
@@ -45,7 +45,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#deluxe" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#features">Services</a></li>
           <!-- <li><a href="#gallery">Gallery</a></li>
