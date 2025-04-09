@@ -16,8 +16,7 @@
             <img src="assets/img/heronew.png" class="img-fluid animated" alt="">
           </div>
           <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h1>Make Your World Work<span> Deluxe IT Services</span></h1>
-
+            <h1>Your Business, Our Technology — Empowered by<span> Deluxe IT Services</span></h1>
             <p>At Deluxe IT Services, we specialize in cutting-edge IT solutions, including expert PHP and Laravel development. Our dedicated team ensures innovation, efficiency, and tailored solutions to elevate your business.</p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Get Started</a>
