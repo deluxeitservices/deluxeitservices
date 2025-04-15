@@ -164,12 +164,13 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#features">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="{{ route('aboutus') }}">About us</a></li>
+            <li><a href="{{ route('seo') }}">SEO</a></li>
+            <li><a href="{{route('portfolio')}}">Portfolio</a></li>
+           <!--  <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#faq">FAQ</a></li> -->
           </ul>
         </div>
 

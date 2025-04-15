@@ -45,12 +45,13 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#deluxe" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#features">Services</a></li>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="{{ route('aboutus') }}">About</a></li>
+          <li><a href="{{ route('seo') }}">SEO</a></li>
+          <li><a href="{{route('portfolio')}}">Portfolio</a></li>
           <!-- <li><a href="#gallery">Gallery</a></li>
            -->
-          <li><a href="#faq">FAQ</a></li>
+          <!-- <li><a href="#faq">FAQ</a></li> -->
           <!-- <li><a href="#team">Team</a></li> -->
           <!-- <li><a href="#pricing">Pricing</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -70,7 +71,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="{{route('contactus')}}">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

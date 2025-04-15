@@ -20,7 +20,7 @@
             <p>At Deluxe IT Services, we specialize in cutting-edge IT solutions, including expert PHP and Laravel development. Our dedicated team ensures innovation, efficiency, and tailored solutions to elevate your business.</p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Get Started</a>
-              <!-- <a href="" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+              
             </div>
           </div>
 
@@ -42,7 +42,7 @@
         </g>
       </svg>
 
-    </section><!-- /Hero Section -->
+    </section> --><!-- /Hero Section
 
     <!-- About Section -->
     <section id="about" class="about section">
