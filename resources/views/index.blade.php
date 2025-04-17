@@ -42,9 +42,7 @@
         </g>
       </svg>
 
-    </section> --><!-- /Hero Section
-
-    <!-- About Section -->
+    </section>
     <section id="about" class="about section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -52,7 +50,7 @@
 
           <div class="col-xl-5 content">
             <h3>About Us</h3>
-            <p>At our core, we're a London-based web design agency driven by a simple idea: building smarter, faster, and more accessible websites without writing code. We believe great design shouldn't be limited by complex development. That's why we harness the power of modern no-code tools to bring ideas to life—quickly, efficiently, and beautifully.</p>
+            <p>At our core, we're a London-based web development agency driven by a simple idea: building smarter, faster, and more accessible websites without writing code. We believe great design shouldn't be limited by complex development. That's why we harness the power of modern no-code tools to bring ideas to life—quickly, efficiently, and beautifully.</p>
 
             <p>From startups to established brands, we help businesses launch impactful digital experiences without the traditional development bottlenecks. Every project we take on is rooted in strategy, creativity, and a commitment to usability.</p>
 

@@ -12,21 +12,20 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>SEO</h1>
-              <p class="mb-0">Strategic SEO solutions that drive explosive growth for your business</p>
-              <p class="mb-0">Our SEO campaigns are clear, honest, and focused on real results—bringing your ideal customers to your website in high volume.</p>
+              <h1>Portfolio</h1>
+              <p class="mb-0">Our Portfolio.</p>
             </div>
           </div>
         </div>
       </div>
-      <nav class="breadcrumbs">
+      <!-- <nav class="breadcrumbs">
         <div class="container">
           <ol>
             <li><a href="/">Home</a></li>
             <li class="current">SEO</li>
           </ol>
         </div>
-      </nav>
+      </nav> -->
     </div><!-- End Page Title -->
 
       <!-- Gallery Section -->
@@ -40,65 +39,49 @@
 
         <div class="row g-0">
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              <a href="assets/img/PreownedLuxuries.png" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/PreownedLuxuries.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              <a href="assets/img/WeBuyDiamond.png" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/WeBuyDiamond.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              <a href="assets/img/DeluxeDiamond.png" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/DeluxeDiamond.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              <a href="assets/img/DeluxeDiamondManufacturing.png" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/DeluxeDiamondManufacturing.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              <a href="assets/img/WeBuyDiamondCRM.png" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/WeBuyDiamondCRM.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              <a href="assets/img/iStockTaxCRM.png" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/iStockTaxCRM.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
