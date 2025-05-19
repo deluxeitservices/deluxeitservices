@@ -99,7 +99,8 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="{{ url('/contactusformsubmit') }}" id="contactForm" enctype="multipart/form-data" autocomplete="off" method="post" class="php-email-form">
+              @csrf
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -167,7 +168,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="{{ route('aboutus') }}">About us</a></li>
             <li><a href="{{ route('seo') }}">SEO</a></li>
-            <li><a href="{{route('portfolio')}}">Portfolio</a></li>
+            <!-- <li><a href="{{route('portfolio')}}">Portfolio</a></li> -->
            <!--  <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>
             <li><a href="#faq">FAQ</a></li> -->
@@ -214,7 +215,7 @@
 
   <!-- Vendor JS Files -->
   <script src="{{ URL::asset('/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}?a=4"></script>
-  <script src="{{ URL::asset('/assets/vendor/php-email-form/validate.js') }}?a=4"></script>
+  <!-- <script src="{{ URL::asset('/assets/vendor/php-email-form/validate.js') }}?a=4"></script> -->
   <script src="{{ URL::asset('/assets/vendor/aos/aos.js') }}?a=4"></script>
   <script src="{{ URL::asset('/assets/vendor/glightbox/js/glightbox.min.js') }}?a=4"></script>
   <script src="{{ URL::asset('/assets/vendor/purecounter/purecounter_vanilla.js') }}?a=4"></script>
@@ -222,7 +223,10 @@
 
   <!-- Main JS File -->
   <script src="{{ URL::asset('/assets/js/main.js') }}?a=4"></script>
-
+  <script>
+    // var contactUSUrl = @json(route('contactusformsubmit')); 
+    // var csrfToken = @json(csrf_token()); 
+</script>
 </body>
 
 </html>

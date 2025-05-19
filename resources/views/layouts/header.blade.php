@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index</title>
+  <title>Deluxe It Services</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="{{ URL::asset('/assets/img/favicon.png') }}?a=4" rel="icon">
-  <link href="{{ URL::asset('/assets/img/apple-touch-icon.png') }}?a=4" rel="apple-touch-icon">
+  <link href="{{ URL::asset('/assets/img/favicon.png') }}?a=4" rel="deluxe-it-services">
 
    <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -48,7 +48,7 @@
           <li><a href="/" class="active">Home</a></li>
           <li><a href="{{ route('aboutus') }}">About</a></li>
           <li><a href="{{ route('seo') }}">SEO</a></li>
-          <li><a href="{{route('portfolio')}}">Portfolio</a></li>
+          <!-- <li><a href="{{route('portfolio')}}">Portfolio</a></li> -->
           <!-- <li><a href="#gallery">Gallery</a></li>
            -->
           <!-- <li><a href="#faq">FAQ</a></li> -->

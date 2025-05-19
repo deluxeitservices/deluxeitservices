@@ -21,3 +21,4 @@ Route::get('aboutus', [App\Http\Controllers\HomeController::class, 'aboutus'])->
 Route::get('seo', [App\Http\Controllers\HomeController::class, 'seo'])->name('seo');
 Route::get('contactus', [App\Http\Controllers\HomeController::class, 'contactus'])->name('contactus');
 Route::get('portfolio', [App\Http\Controllers\HomeController::class, 'portfolio'])->name('portfolio');
+Route::post('contactusformsubmit', [App\Http\Controllers\HomeController::class, 'contactusformsubmit'])->name('contactusformsubmit');

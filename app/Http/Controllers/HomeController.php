@@ -58,6 +58,61 @@ class HomeController extends Controller
     }
 
 
+    public function contactusformsubmit(Request $request)
+    {
+          // Store the form data in the database
+          // $contactus = new PreownedContact();
+          // $contactus->full_name = $request->name;
+          // $contactus->email = $request->email;
+          // $contactus->phone = $request->phone;
+          // $contactus->message = $request->message;
+          // $contactus->save();
+
+        // 1. Send email to the user
+        $userTo = $request->email;
+        $userSubject = 'Thank you for contacting us!';
+        $userContent = view('emails.user_contact_confirmation', [
+            'user_name' => $request->name,
+            'subject' => $request->subject,
+            'message' => $request->message,
+        ])->render();
+
+        sendMailCommon($userTo, $userSubject, $userContent);
+
+        // 2. Send email to the admin
+        //$adminTo = 'junedm90@gmail.com'; // Replace with actual admin email
+        $adminTo = 'deluxe.it.services@gmail.com'; // Replace with actual admin email
+        //$adminTo= getAdminEmail();
+        $adminSubject = 'New Contact Us Inquiry';
+        $adminContent = view('emails.admin_contact_notification', [
+            'user_name' => $request->name,
+            'user_email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message,
+        ])->render();
+
+        sendMailCommon($adminTo, $adminSubject, $adminContent);
+
+         /* // Store file if uploaded
+          if ($request->hasFile('form_file')) {
+              $path = $request->file('form_file')->store('uploads', 'public');
+              $sale->form_file = $path;
+          }*/
+
+        //   <img src="{{ asset('storage/' . $imagePath) }}" alt="Uploaded Image" class="img-thumbnail" style="max-width: 150px; margin: 5px;">
+        // http://your-domain/storage/uploads/u3lRhbrGzzoyVmU1iNy7I2HWZQzcK4SXyRLOf9vu.png
+        // http://127.0.0.1:8000/storage/uploads/u3lRhbrGzzoyVmU1iNy7I2HWZQzcK4SXyRLOf9vu.png
+
+        //   ["uploads\/u3lRhbrGzzoyVmU1iNy7I2HWZQzcK4SXyRLOf9vu.png","uploads\/GsmrKA66DaFkmFG7JwbsknFpGXH8MOs8VJnycYbI.jpg"]
+
+        // Store files if uploaded
+        
+  
+
+        // Return success response
+        return back()->with('success', '"Your inquiries have been successfully added');
+        //return response()->json(['success' => true, 'message' => 'Data saved successfully!']);            
+    }
        /**
      * Show the application FAQ.
      *
